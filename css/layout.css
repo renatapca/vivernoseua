@@ -1,0 +1,330 @@
+
+:root{
+    --title-color:#1B4253;
+    --primary-color:#062B36;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+body{
+    font-family: 'Baskervville', serif;
+}
+  
+
+
+
+.logo{
+
+	height:68px;
+    min-width:180px;
+    margin-top: 2%;
+    margin-left:10%;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo{
+        margin-top: 5%;
+        margin-left:5%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo{
+        margin-top: 10%;
+        margin-left:5%;
+    }
+}
+
+.icon-color{
+
+    color:var(--title-color);
+    margin-top:40px;
+       
+}
+
+
+
+
+nav{
+    background-color: #ffffff;  
+    height:130px;
+    box-shadow: none;
+    padding: 0;
+    padding-right: 10%;
+
+}
+
+nav ul li{ 
+    
+    padding-top:5%;
+   
+   
+}
+
+
+
+nav ul li a{
+    font-size: 20px;    
+    color:var(--title-color);
+    letter-spacing: 0.1em;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+     transition: 500ms;
+    
+   
+}
+
+ul li a:hover{
+    color: rgb(245, 32, 4);
+    background-color: transparent;
+ 
+}
+
+
+.sidenav{
+    background-color: #fff;
+    width:100%;
+    background-color:  rgb(241, 219, 215);
+   
+}
+
+.sidenav li{
+    margin-bottom: 20px;
+    padding-left:10%;
+    padding-right:10%;
+
+}
+
+
+.sidenav li a{
+    font-size: 20px;
+    margin:5%;
+    margin-bottom:20px;
+    border-bottom: 1px solid var(--title-color);
+    color:var(--title-color);
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+   text-transform: uppercase;
+  
+}
+
+#sidenavX{
+   
+text-align: left;
+margin-left: 10%;
+color:var(--title-color);
+margin-bottom: 50px;
+font-size: 30px;
+
+}
+
+
+
+#contato-border{
+    border-bottom: none;
+}
+
+
+/*BANNER TOPO*/
+
+
+#new-banner{
+    background: url("../imagem/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 450px;
+    filter:opacity(80%);
+
+}
+
+
+#info  header {
+   margin-left: 38%;
+    position: absolute;
+        margin-top: 2%;
+
+
+
+}
+
+#info img{
+    max-height: 180px ;
+    min-width: 200px;
+}
+
+
+
+
+@media screen and (max-width: 1248px) {
+    #info header  {
+         margin-top: 8%;
+         margin-left: 50%;
+    }
+
+    #info img{
+        height:160px ;
+      
+    }
+    
+nav{
+    
+    padding:0;
+    margin:0;
+    
+
+}
+.logo{
+    margin-left:5%;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 1268px) {
+
+
+    nav{
+    
+        padding:0;
+        margin:0;
+        
+    
+    }
+    .logo{
+        margin-left:1%;
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 1004px) {
+    #info header  {
+         margin-top: 17%;
+         margin-left: 20%;
+    }
+
+    #info img{
+        height:160px ;
+      
+    }
+
+    
+    nav{
+    
+        padding:0;
+        margin:0;
+        
+    
+    }
+    .logo{
+        margin-left:1%;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    #info header  {
+         margin-top: 35%;
+         margin-left: 18%;
+    }
+
+    #info img{
+        height:130px ;
+      
+    }
+    
+
+}
+
+@media screen and (max-width: 375px) {
+    #info header  {
+         margin-top: 35%;
+       margin-left: 15%;
+    }
+
+    #info img{
+        height:130px ;
+      
+    }
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    #info header  {
+         margin-top: 35%;
+       margin-left: 10%;
+    }
+
+    #info img{
+        height:130px ;
+      
+    }
+        
+    #new-banner{
+        height: 400px;
+      
+    }
+
+}
+
+
+
+
+
+
+   
+footer.page-footer{
+      
+  background-color: #1B4253;
+
+}
+
+#links a{
+    font-size: 20px;
+    color:white;
+    transition: 400ms;
+   
+}
+#links a:hover{
+    color:rgb(216, 204, 204);
+}
+
+.redes-sociais h2{
+    font-size: 20px;
+}
+
+
+.redes-sociais img{
+    width: 30px;
+}
+
+#part2{
+    background-color: #062B36;
+ 
+}
+
+#part2 a{
+       transition: 400ms;
+}
+
+#part2 a:hover{
+    color:rgb(216, 204, 204);
+}
+
+#user-renata{
+   
+color:rgb(243, 230, 230);
+
+}
